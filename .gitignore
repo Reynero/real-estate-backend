@@ -1,0 +1,26 @@
+# Build outputs
+bin/
+obj/
+
+# User secrets and local config
+appsettings.Development.json
+*.user
+
+# VS Code
+.vscode/
+
+# .NET
+*.suo
+*.user
+.vs/
+
+# Rider
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+
+# OS
+.DS_Store
+Thumbs.db
