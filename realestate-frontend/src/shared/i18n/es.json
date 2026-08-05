@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "browse": "Explorar",
+    "saved": "Guardados",
+    "myListings": "Mis propiedades",
+    "allProperties": "Todas las propiedades",
+    "account": "Cuenta",
+    "logIn": "Iniciar sesión",
+    "logOut": "Cerrar sesión",
+    "signUp": "Registrarse",
+    "hi": "Hola, {{name}}"
+  },
+  "landing": {
+    "heroTitle": "Encuentra tu próximo hogar",
+    "heroSubtitle": "Explora propiedades, guarda tus favoritas y contacta directamente con los propietarios — todo en un solo lugar.",
+    "buy": "Comprar una casa",
+    "rent": "Alquilar una casa",
+    "sell": "Vender o publicar",
+    "browseAll": "Ver todas las propiedades",
+    "aboutTitle": "Sobre HomeFind",
+    "aboutBody": "HomeFind es una forma sencilla de comprar, alquilar o publicar una propiedad — sin necesidad de agentes. Busca por ciudad y precio, mira todo en un mapa interactivo, guarda los lugares que te gusten y escribe directamente al propietario cuando estés listo. Cualquiera puede publicar una propiedad, ya sea que vendas tu primera casa o quieras alquilar una habitación.",
+    "step1": "Busca por ciudad, precio y tipo",
+    "step2": "Guarda favoritos y míralos en el mapa",
+    "step3": "Escribe directamente al propietario"
+  }
+}

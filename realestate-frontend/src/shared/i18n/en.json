@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "browse": "Browse",
+    "saved": "Saved",
+    "myListings": "My listings",
+    "allProperties": "All properties",
+    "account": "Account",
+    "logIn": "Log in",
+    "logOut": "Log out",
+    "signUp": "Sign up",
+    "hi": "Hi, {{name}}"
+  },
+  "landing": {
+    "heroTitle": "Find your next place to call home",
+    "heroSubtitle": "Browse listings, save your favorites, and connect directly with owners — all in one simple place.",
+    "buy": "Buy a home",
+    "rent": "Rent a home",
+    "sell": "Sell or list",
+    "browseAll": "Browse all listings",
+    "aboutTitle": "About HomeFind",
+    "aboutBody": "HomeFind is a straightforward way to buy, rent, or list a property — no agents required. Search by city and price, see everything on an interactive map, save the places you like, and message owners directly when you're ready to talk. Anyone can list a property, whether you're selling your first home or looking to rent out a spare room.",
+    "step1": "Search by city, price, and type",
+    "step2": "Save favorites and view on the map",
+    "step3": "Message the owner directly"
+  }
+}
