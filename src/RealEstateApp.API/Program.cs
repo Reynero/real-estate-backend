@@ -88,7 +88,7 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins(
             "http://localhost:5173",
-            "https://real-estate-backend-pt71.onrender.com/api"
+            "https://real-estate-frontend-seven-rho.vercel.app/"
         ) // Vite's default dev server port
               .AllowAnyHeader()
               .AllowAnyMethod();
