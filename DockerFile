@@ -3,20 +3,23 @@ FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /app
 
 # Copy solution and project files
-COPY *.sln .
+COPY RealEstateApp.slnx .
 COPY src/RealEstateApp.Domain/RealEstateApp.Domain.csproj src/RealEstateApp.Domain/
 COPY src/RealEstateApp.Application/RealEstateApp.Application.csproj src/RealEstateApp.Application/
 COPY src/RealEstateApp.Infrastructure/RealEstateApp.Infrastructure.csproj src/RealEstateApp.Infrastructure/
 COPY src/RealEstateApp.API/RealEstateApp.API.csproj src/RealEstateApp.API/
 
-# Restore packages
-RUN dotnet restore
+# Restore packages — point explicitly to the solution file
+RUN dotnet restore RealEstateApp.slnx
 
 # Copy all source code
 COPY src/ src/
 
 # Build and publish
-RUN dotnet publish src/RealEstateApp.API/RealEstateApp.API.csproj -c Release -o /app/publish
+RUN dotnet publish src/RealEstateApp.API/RealEstateApp.API.csproj \
+    -c Release \
+    -o /app/publish \
+    --no-restore
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
